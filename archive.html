@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="эхо предоставляет возможность заархивировать своё воспоминание.">
+  <title>архив</title>
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <script src="./js/archive.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">о проекте</a></li>
+        <li><a href="space.html">пространство</a></li>
+        <li><a href="meetings.html">встречи</a></li>
+        <li><a href="merch.html">мерч</a></li>
+        <li><a href="archive.html" class="active">архив</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="archive-container">
+
+    <div class="screen" id="screen-1">
+      <div class="text-block">
+        <label>i. cобытие: <input type="text" name="event" /></label>
+        <label>ii. визуальные образы: <input type="text" name="visuals" /></label>
+        <label>iii. окружение: <input type="text" name="environment" /></label>
+        <label>iv. звуки: <input type="text" name="sounds" /></label>
+        <label>v. запахи: <input type="text" name="smells" /></label>
+      </div>
+  
+      <div class="button-row only-next">
+        <button class="next-btn">далее</button>
+      </div>
+      <div class="image-strip">
+        <div><span>a</span><img src="./images/a.png" alt="a" /></div>
+        <div><span>b</span><img src="./images/b.png" alt="b" /></div>
+        <div><span>с</span><img src="./images/c.png" alt="с" /></div>
+        <div><span>d</span><img src="./images/d.png" alt="d" /></div>
+        <div><span>e</span><img src="./images/e.png" alt="e" /></div>
+        <div><span>f</span><img src="./images/f.png" alt="f" /></div>
+        <div><span>g</span><img src="./images/g.png" alt="g" /></div>
+        <div><span>h</span><img src="./images/h.png" alt="h" /></div>
+        <div><span>i</span><img src="./images/i.png" alt="i" /></div>
+        <div><span>j</span><img src="./images/j.png" alt="j" /></div>
+        <div><span>k</span><img src="./images/k.png" alt="k" /></div>
+        <div><span>l</span><img src="./images/l.png" alt="l" /></div>
+        <div><span>m</span><img src="./images/m.png" alt="m" /></div>
+        <div><span>n</span><img src="./images/n.png" alt="n" /></div>
+      </div>
+    </div> 
+
+    <div class="screen hidden" id="screen-2">
+        <div class="text-block">
+      <label>дата и время:
+        <input type="datetime-local" name="datetime" />
+      </label>
+         </div>
+  
+      <div class="button-row">
+        <button class="back-btn">назад</button>
+        <button class="next-btn">далее</button>
+      </div>
+      <div class="image-strip">
+        <div><span>a</span><img src="./images/a.png" alt="a" /></div>
+        <div><span>b</span><img src="./images/b.png" alt="b" /></div>
+        <div><span>с</span><img src="./images/c.png" alt="с" /></div>
+        <div><span>d</span><img src="./images/d.png" alt="d" /></div>
+        <div><span>e</span><img src="./images/e.png" alt="e" /></div>
+        <div><span>f</span><img src="./images/f.png" alt="f" /></div>
+        <div><span>g</span><img src="./images/g.png" alt="g" /></div>
+        <div><span>h</span><img src="./images/h.png" alt="h" /></div>
+        <div><span>i</span><img src="./images/i.png" alt="i" /></div>
+        <div><span>j</span><img src="./images/j.png" alt="j" /></div>
+        <div><span>k</span><img src="./images/k.png" alt="k" /></div>
+        <div><span>l</span><img src="./images/l.png" alt="l" /></div>
+        <div><span>m</span><img src="./images/m.png" alt="m" /></div>
+        <div><span>n</span><img src="./images/n.png" alt="n" /></div>
+      </div>
+    </div>
+  
+    <div class="screen hidden" id="screen-3">
+        <div class="text-block">
+            <label>i. фото: <input type="file" name="photo" accept="image/*" /></label>
+        <label>ii. аудио: <input type="file" name="audio" accept="audio/*" /></label>
+        <label>iii. видео: <input type="file" name="video" accept="video/*" /></label>
+        <label>iv. заметка: <textarea name="note"></textarea></label>
+        </div>
+  
+      <div class="button-row">
+        <button class="back-btn">назад</button>
+        <button class="next-btn">далее</button>
+      </div>
+      <div class="image-strip">
+        <div><span>a</span><img src="./images/a.png" alt="a" /></div>
+        <div><span>b</span><img src="./images/b.png" alt="b" /></div>
+        <div><span>с</span><img src="./images/c.png" alt="с" /></div>
+        <div><span>d</span><img src="./images/d.png" alt="d" /></div>
+        <div><span>e</span><img src="./images/e.png" alt="e" /></div>
+        <div><span>f</span><img src="./images/f.png" alt="f" /></div>
+        <div><span>g</span><img src="./images/g.png" alt="g" /></div>
+        <div><span>h</span><img src="./images/h.png" alt="h" /></div>
+        <div><span>i</span><img src="./images/i.png" alt="i" /></div>
+        <div><span>j</span><img src="./images/j.png" alt="j" /></div>
+        <div><span>k</span><img src="./images/k.png" alt="k" /></div>
+        <div><span>l</span><img src="./images/l.png" alt="l" /></div>
+        <div><span>m</span><img src="./images/m.png" alt="m" /></div>
+        <div><span>n</span><img src="./images/n.png" alt="n" /></div>
+      </div>
+    </div>
+
+    <div class="screen hidden" id="screen-4">
+      <h2>ваше воспоминание:</h2>
+      <table id="summary-table"></table>
+    </div>
+  
+    </div>
+  
+  
+</body>
+</html>
